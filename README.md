@@ -1,0 +1,1 @@
+This is Bethco's first git project!
