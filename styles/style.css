@@ -1,1 +1,58 @@
-/*This is Bethco's first git project!*/
+
+body {
+    text-align: center;
+    margin: 20px 80px;
+}
+
+    #google-logo {
+        padding-top: 100px;
+        margin-bottom: 25px;
+    }
+
+    form {
+        display: grid;
+        width: 500px;
+        margin: 0 auto;
+    }
+        .search-bar {
+            border: 1px solid gray;
+            border-radius: 23px;
+            height: 46px;
+            width: 474px;
+            grid-row-end: 2;
+            margin-bottom: 25px;
+        }
+          
+            input[type="text"] {
+            
+                border: none;
+                height: 46px;
+                border-radius: 23px;
+                grid-row-start: 2;
+                grid-row-end: 2;    
+            }
+
+            #mag-glass {
+                max-width: 20px;
+                height: auto;
+                padding: 13px; 
+            }
+
+            #mag-glass,
+            .search-bar {
+                display: grid;
+                grid-template-columns: .5fr 6fr;
+                grid-row-start: 2;
+            }
+        
+        .buttons {
+            grid-row-start: 3;
+            grid-row-end: 4;
+            margin: 11px 4px;
+            padding: 0 16px;
+            text-align: center;
+        }
+        
+        .buttons:hover {
+            box-shadow: lightgray;
+        }

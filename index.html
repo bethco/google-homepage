@@ -7,12 +7,19 @@
         <link href="https://fonts.google.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <img src="styles/images/googlelogo_color_272x92dp.png" alt="google-logo">
+        <img id="google-logo" src="styles/images/googlelogo_color_272x92dp.png" alt="google-logo">
 
-        <form id="search-bar">
-            <div class="material-icons">&#e8b6;
+        <form>
+        <!--text area-->
+            <div class="search-bar">
+                <img id="mag-glass" src="styles/images/search-icon.png" alt="mag-glass">
+                <input type="text" name="type-here">
             </div>
-            <input type="text" name="search-bar">
+            <!--buttons-->
+            <div class="buttons">
+                <input type="submit" name="search" value="Google Search">
+                <input type="submit" name="lucky" value="I'm feeling lucky">
+            </div>
         </form>
 
 
